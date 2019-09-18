@@ -67,8 +67,6 @@ void CSVreader::writeCSV(string url) {
 
         string movie = html.substr(0, newMovie+1);
 
-        cout << movie << endl;
-
         html = html.substr(newMovie+1);
 
         string title;
@@ -292,6 +290,6 @@ void CSVreader::writeCSV(string url) {
 
 
         Dataset << title << "," << description << "," << director << "," << actors << "," << adults << "," << poster << "," << trailer << endl;
-        
+
     }
 }
