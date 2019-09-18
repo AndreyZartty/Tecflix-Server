@@ -46,7 +46,7 @@ void Data::fillData() {
 
     changeS = changeS.substr(0,indexChg-1);
 
-    movie = "imdb.com" + changeS;
+    movie = "https://www.imdb.com" + changeS;
 
 }
 
